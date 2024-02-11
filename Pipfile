@@ -3,12 +3,18 @@ url = "https://pypi.org/simple"
 verify_ssl = true
 name = "pypi"
 
+[[source]]
+url = "https://download.pytorch.org/whl/cpu"
+verify_ssl = true
+name = "downloadpytorch"
+
 [packages]
 apify = "*"
 lyricsgenius = "*"
 python-dotenv = "*"
 pymongo = "*"
 sentence-transformers = "*"
+torch = {version = "*", index = "downloadpytorch"}
 
 [dev-packages]
 
