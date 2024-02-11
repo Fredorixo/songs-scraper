@@ -1,0 +1,6 @@
+{
+    "actorSpecification": 1,
+    "name": "songs-scraper",
+    "description": "Scrape songs related to artists",
+    "version": "0.0"
+}

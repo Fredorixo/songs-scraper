@@ -1,0 +1,6 @@
+# Environment Variables
+.env
+
+# VSCode Files
+.vscode/*
+!.vscode/extensions.json
